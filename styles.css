@@ -12,6 +12,9 @@
     }
     .navbar__menu{
         flex-wrap: wrap;
+        -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63); 
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63);
+    border-radius: 4%;
     }
     header{
         margin-top: 200px;
@@ -99,7 +102,8 @@ section{
 }
 
 .arrival{
-    background-color: rgb(105, 95, 100);
+    background-image: url(./images/arrivals.jpg);
+    background-size: cover;
     box-shadow: 12px;
     height: 12em;
     width: 12em;
@@ -109,7 +113,8 @@ section{
     border-radius: 4%;
 }
 .departure{
-    background-color: rgb(25, 75, 71);
+    background-image: url(./images/departures.jpg);
+    background-size: cover;
     box-shadow: 12px;
     height: 12em;
     width: 12em;
@@ -119,7 +124,8 @@ section{
     border-radius: 4%;
 }
 .milk{
-    background-color: rgb(15, 125, 91);
+    background-image: url(./images/milk.jpg);
+    background-size: cover;
     box-shadow: 12px;
     height: 12em;
     width: 12em;
@@ -130,7 +136,8 @@ section{
 
 }
 .provided_food{
-    background-color: rgb(25, 125, 1);
+    background-image: url(./images/providedfood.jpg);
+    background-size: cover;
     box-shadow: 12px;
     height: 12em;
     width: 12em;
@@ -142,7 +149,8 @@ section{
 
 }
 .naptime{
-    background-color: rgb(15, 15, 105);
+    background-image: url(./images/sleeping.jpg);
+    background-size: cover;
     box-shadow: 12px;
     height: 12em;
     width: 12em;
@@ -152,7 +160,9 @@ section{
     border-radius: 4%;
 }
 .potty_log{
-    background-color: rgb(125, 125, 211);
+    background-image: url(./images/potty.jpg);
+    background-size: cover;
+    background-position: 80%;
     box-shadow: 12px;
     height: 12em;
     width: 12em;
@@ -173,4 +183,7 @@ h4{
     justify-content: center;
     align-items: center;
     color: aliceblue;
+}
+p{
+background-color: rgba(255, 255, 255, .7)
 }
