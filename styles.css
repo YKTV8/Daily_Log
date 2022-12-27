@@ -179,6 +179,10 @@ section{
     justify-content: center;
     align-items: center;
 }
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
 h4{
     justify-content: center;
     align-items: center;
