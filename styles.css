@@ -13,11 +13,13 @@
     .navbar__menu{
         flex-wrap: wrap;
         -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63); 
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63);
-    border-radius: 4%;
+        box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63);
+        border-radius: 4%;
+
     }
     header{
-        margin-top: 200px;
+        margin: 190px 30px;
+        align-items: center;
     }
 }
 
@@ -57,6 +59,10 @@ header{
     left: 0;
     right: 0;
     transition: all .3s ease-in-out;
+}
+.navbar{
+    padding: 5px;
+    word-spacing: 5px;
 }
 .container .navbar__menu{
     display: flex;
@@ -122,6 +128,7 @@ section{
     -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63); 
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63);
     border-radius: 4%;
+    
 }
 .milk{
     background-image: url(./images/milk.jpg);
@@ -181,7 +188,9 @@ section{
 }
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aliceblue;
+    color: black;
+    /* background-color: rgba(255, 255, 255, .7); */
+    
 }
 h4{
     justify-content: center;
@@ -190,4 +199,20 @@ h4{
 }
 p{
 background-color: rgba(255, 255, 255, .7)
+}
+span{
+    
+}
+button{
+    display: flex;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 10px;
+    height: 165px;
+    width: 75px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, .8);
 }
