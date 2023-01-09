@@ -79,10 +79,10 @@ header{
 ul, li{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-right: 10px;
     margin-right: 10px;
     list-style-type: none;
-
 }
 /* body{
     display: flex;
@@ -179,6 +179,18 @@ section{
     border-radius: 4%;
 
 }
+.supplies{
+    background-image: url(./images/diapers-unsplash.jpg);
+    background-size: cover;
+    background-position: 80%;
+    box-shadow: 12px;
+    height: 12em;
+    width: 12em;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63); 
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.63);
+    border-radius: 4%;
+}
 .footer, h2{
     background-color: rgba(10, 152, 100, 0.4);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -199,9 +211,6 @@ h4{
 }
 p{
 background-color: rgba(255, 255, 255, .7)
-}
-span{
-    
 }
 button{
     display: flex;
